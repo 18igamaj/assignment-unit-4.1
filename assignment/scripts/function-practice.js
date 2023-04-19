@@ -26,10 +26,14 @@ function helloName( name) {
 console.log('This is your mac book!', helloName());
 
 // 3. Function to add two numbers together & return the result
-function addNumbers( firstNumber ) {
+
+function addNumbers( firstNumber, secondNumber ){
+  console.log('The sum of:', firstNumber,secondNumber);
+  let answer = firstNumber + secondNumber;
+  return answer; 
   // return firstNumber + secondNumber;
 }
-
+console.log('What is the the total of the two numbers:', addNumbers(2,3));
 
 // 4. Function to multiply three numbers & return the result
 function multiplyThree( ){
