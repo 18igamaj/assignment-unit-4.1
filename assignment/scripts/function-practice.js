@@ -91,6 +91,8 @@ function find(value, array) {
     }
   }
 }
+console.log('Do we have any blue boats?:', find('blue', boats));
+console.log('Do we have any green boats?:',find('green',boats));
 
 // ----------------------
 // Stretch Goals
