@@ -17,12 +17,12 @@ console.log('Test - should say "Hello World!"', hello());
 
 // 2. Function to return an personalized hello, using the `name` argument.
 //    for example 'Hello, Jo!', or 'Hello, Stacy!'
-function helloName() {
-  return "Hello, Majid";
+function helloName(name) {
+  return 'Hi,', name;
 }
 
 // Remember to call the function to test
-console.log('How I like to be greeted:', helloName());
+console.log('How I like to be greeted:', helloName('Majid!'));
 
 // 3. Function to add two numbers together & return the result
 
@@ -88,11 +88,11 @@ function find(value, array) {
     }
     else{
       return false;
-    }
   }
 }
+}
 console.log('Do we have any blue boats?:', find('blue', boats));
-console.log('Do we have any green boats?:',find('green',boats));
+console.log('Do we have any yellow boats?:',find('yellow',boats));
 
 // ----------------------
 // Stretch Goals
